@@ -40,11 +40,6 @@ diy_bigram/
 ├── bigram.ipynb              # 学习过程中的 nn.Embedding 实验笔记
 ├── input.txt                 # 数据集：tinyshakespeare（1,115,394 字符）
 ├── README.md
-├── tools/                    # 为生成可复现结果而新增的工具（不改动原脚本）
-│   ├── train.py              # 带指标记录的训练脚本（结构与原脚本一致）
-│   ├── make_figures.py       # 生成趋势图表
-│   ├── make_screenshots.py   # 生成终端风格结果截图
-│   └── summarize.py          # 汇总各次运行的关键指标
 └── results/
     ├── *_history.json        # 逐评估点的 loss / ppl / accuracy 记录
     ├── logs/                 # 原始训练日志
