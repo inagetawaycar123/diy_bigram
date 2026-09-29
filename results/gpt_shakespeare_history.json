@@ -1,0 +1,146 @@
+{
+  "tag": "gpt_shakespeare",
+  "model": "gpt",
+  "data": "shakespeare",
+  "data_label": "tinyshakespeare (英文)",
+  "device": "cuda",
+  "n_params": 10788929,
+  "n_chars": 1115394,
+  "vocab_size": 65,
+  "config": {
+    "batch_size": 64,
+    "block_size": 256,
+    "max_iters": 5000,
+    "eval_interval": 500,
+    "learning_rate": 0.0003,
+    "n_embd": 384,
+    "n_head": 6,
+    "n_layer": 6,
+    "dropout": 0.2
+  },
+  "eval_iters": 200,
+  "total_time_s": 1901.309341430664,
+  "history": [
+    {
+      "iter": 0,
+      "train_loss": 4.2220964431762695,
+      "val_loss": 4.230557918548584,
+      "train_ppl": 68.17626190185547,
+      "val_ppl": 68.75558471679688,
+      "train_acc": 0.00695404052734375,
+      "val_acc": 0.0071478271484375,
+      "elapsed_s": 30.248122692108154
+    },
+    {
+      "iter": 500,
+      "train_loss": 1.7068132162094116,
+      "val_loss": 1.8719358444213867,
+      "train_ppl": 5.511369705200195,
+      "val_ppl": 6.500868797302246,
+      "train_acc": 0.48635040283203124,
+      "val_acc": 0.44700775146484373,
+      "elapsed_s": 221.84644722938538
+    },
+    {
+      "iter": 1000,
+      "train_loss": 1.347396731376648,
+      "val_loss": 1.5709311962127686,
+      "train_ppl": 3.8473966121673584,
+      "val_ppl": 4.811126232147217,
+      "train_acc": 0.5803985595703125,
+      "val_acc": 0.532352294921875,
+      "elapsed_s": 397.718652009964
+    },
+    {
+      "iter": 1500,
+      "train_loss": 1.2183514833450317,
+      "val_loss": 1.5148377418518066,
+      "train_ppl": 3.381608486175537,
+      "val_ppl": 4.548683166503906,
+      "train_acc": 0.6157754516601562,
+      "val_acc": 0.554498291015625,
+      "elapsed_s": 619.7435164451599
+    },
+    {
+      "iter": 2000,
+      "train_loss": 1.1266218423843384,
+      "val_loss": 1.51323664188385,
+      "train_ppl": 3.085216522216797,
+      "val_ppl": 4.541406154632568,
+      "train_acc": 0.64100830078125,
+      "val_acc": 0.562193603515625,
+      "elapsed_s": 798.043319940567
+    },
+    {
+      "iter": 2500,
+      "train_loss": 1.0438379049301147,
+      "val_loss": 1.515376329421997,
+      "train_ppl": 2.8400962352752686,
+      "val_ppl": 4.551133632659912,
+      "train_acc": 0.6659219360351563,
+      "val_acc": 0.5642263793945312,
+      "elapsed_s": 935.9579663276672
+    },
+    {
+      "iter": 3000,
+      "train_loss": 0.9715670943260193,
+      "val_loss": 1.5433138608932495,
+      "train_ppl": 2.6420814990997314,
+      "val_ppl": 4.6800737380981445,
+      "train_acc": 0.6877883911132813,
+      "val_acc": 0.5655731201171875,
+      "elapsed_s": 1122.9337947368622
+    },
+    {
+      "iter": 3500,
+      "train_loss": 0.8936811089515686,
+      "val_loss": 1.595244288444519,
+      "train_ppl": 2.444110155105591,
+      "val_ppl": 4.929533004760742,
+      "train_acc": 0.7124130249023437,
+      "val_acc": 0.56360595703125,
+      "elapsed_s": 1330.9235875606537
+    },
+    {
+      "iter": 4000,
+      "train_loss": 0.813079833984375,
+      "val_loss": 1.630173921585083,
+      "train_ppl": 2.2548418045043945,
+      "val_ppl": 5.104762554168701,
+      "train_acc": 0.738148193359375,
+      "val_acc": 0.5645809936523437,
+      "elapsed_s": 1524.7362141609192
+    },
+    {
+      "iter": 4500,
+      "train_loss": 0.7399387359619141,
+      "val_loss": 1.7025800943374634,
+      "train_ppl": 2.0958070755004883,
+      "val_ppl": 5.488089084625244,
+      "train_acc": 0.7623910522460937,
+      "val_acc": 0.5586981201171874,
+      "elapsed_s": 1723.121603012085
+    },
+    {
+      "iter": 5000,
+      "train_loss": 0.6624387502670288,
+      "val_loss": 1.7530484199523926,
+      "train_ppl": 1.939516544342041,
+      "val_ppl": 5.772171974182129,
+      "train_acc": 0.7885910034179687,
+      "val_acc": 0.5584597778320313,
+      "elapsed_s": 1901.309341430664
+    }
+  ],
+  "sample": "\nOf these bags and reverents atter'd cares,\nProceeded to Elbzarkness a prisoner,\nOur more by rightiers; they they orders are:\nAnd there come.\n\nMARCIIUS:\nHere is the hoarse of Rome, dead;\nRatcline and the claim escaped of his house;\nThereby's hand that his ear downing guard\nCome to suaspicion. Bianca, with him to get\nyou as hafter this plain. Let's twenty boy.\n\nFirst Servingman:\nAnd there was the man I arish of my fathers; married\nfor mine honour, where be bids my wolfort together;\nAnd will I deat",
+  "final": {
+    "iter": 5000,
+    "train_loss": 0.6624387502670288,
+    "val_loss": 1.7530484199523926,
+    "train_ppl": 1.939516544342041,
+    "val_ppl": 5.772171974182129,
+    "train_acc": 0.7885910034179687,
+    "val_acc": 0.5584597778320313,
+    "elapsed_s": 1901.309341430664
+  }
+}

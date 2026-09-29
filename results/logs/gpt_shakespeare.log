@@ -1,0 +1,32 @@
+[gpt_shakespeare] config={"batch_size": 64, "block_size": 256, "max_iters": 5000, "eval_interval": 500, "learning_rate": 0.0003, "n_embd": 384, "n_head": 6, "n_layer": 6, "dropout": 0.2}
+step 0: train loss 4.2221, val loss 4.2306 | train acc 0.70% val acc 0.71% | val ppl 68.8 | 30.2s
+step 500: train loss 1.7068, val loss 1.8719 | train acc 48.64% val acc 44.70% | val ppl 6.5 | 221.8s
+step 1000: train loss 1.3474, val loss 1.5709 | train acc 58.04% val acc 53.24% | val ppl 4.8 | 397.7s
+step 1500: train loss 1.2184, val loss 1.5148 | train acc 61.58% val acc 55.45% | val ppl 4.5 | 619.7s
+step 2000: train loss 1.1266, val loss 1.5132 | train acc 64.10% val acc 56.22% | val ppl 4.5 | 798.0s
+step 2500: train loss 1.0438, val loss 1.5154 | train acc 66.59% val acc 56.42% | val ppl 4.6 | 936.0s
+step 3000: train loss 0.9716, val loss 1.5433 | train acc 68.78% val acc 56.56% | val ppl 4.7 | 1122.9s
+step 3500: train loss 0.8937, val loss 1.5952 | train acc 71.24% val acc 56.36% | val ppl 4.9 | 1330.9s
+step 4000: train loss 0.8131, val loss 1.6302 | train acc 73.81% val acc 56.46% | val ppl 5.1 | 1524.7s
+step 4500: train loss 0.7399, val loss 1.7026 | train acc 76.24% val acc 55.87% | val ppl 5.5 | 1723.1s
+step 5000: train loss 0.6624, val loss 1.7530 | train acc 78.86% val acc 55.85% | val ppl 5.8 | 1901.3s
+[gpt_shakespeare] finished in 1901.3s -> \\wsl.localhost\Ubuntu\home\sadinar\workspace\karpathy\diy_bigram\results\gpt_shakespeare_history.json
+============================================================
+
+Of these bags and reverents atter'd cares,
+Proceeded to Elbzarkness a prisoner,
+Our more by rightiers; they they orders are:
+And there come.
+
+MARCIIUS:
+Here is the hoarse of Rome, dead;
+Ratcline and the claim escaped of his house;
+Thereby's hand that his ear downing guard
+Come to suaspicion. Bianca, with him to get
+you as hafter this plain. Let's twenty boy.
+
+First Servingman:
+And there was the man I arish of my fathers; married
+for mine honour, where be bids my wolfort together;
+And will I deat
+============================================================

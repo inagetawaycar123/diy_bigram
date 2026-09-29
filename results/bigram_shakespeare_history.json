@@ -1,0 +1,142 @@
+{
+  "tag": "bigram_shakespeare",
+  "model": "bigram",
+  "data": "shakespeare",
+  "data_label": "tinyshakespeare (英文)",
+  "device": "cpu",
+  "n_params": 4225,
+  "n_chars": 1115394,
+  "vocab_size": 65,
+  "config": {
+    "batch_size": 32,
+    "block_size": 8,
+    "max_iters": 3000,
+    "eval_interval": 300,
+    "learning_rate": 0.01
+  },
+  "eval_iters": 200,
+  "total_time_s": 8.197509050369263,
+  "history": [
+    {
+      "iter": 0,
+      "train_loss": 4.730469226837158,
+      "val_loss": 4.724065780639648,
+      "train_ppl": 113.34873962402344,
+      "val_ppl": 112.62522888183594,
+      "train_acc": 0.0121484375,
+      "val_acc": 0.01091796875,
+      "elapsed_s": 0.34357786178588867
+    },
+    {
+      "iter": 300,
+      "train_loss": 2.810985803604126,
+      "val_loss": 2.824899911880493,
+      "train_ppl": 16.626300811767578,
+      "val_ppl": 16.859256744384766,
+      "train_acc": 0.22818359375,
+      "val_acc": 0.22404296875,
+      "elapsed_s": 1.1065552234649658
+    },
+    {
+      "iter": 600,
+      "train_loss": 2.5434393882751465,
+      "val_loss": 2.5682177543640137,
+      "train_ppl": 12.723356246948242,
+      "val_ppl": 13.042558670043945,
+      "train_acc": 0.2678515625,
+      "val_acc": 0.267578125,
+      "elapsed_s": 1.9753568172454834
+    },
+    {
+      "iter": 900,
+      "train_loss": 2.4931976795196533,
+      "val_loss": 2.508826971054077,
+      "train_ppl": 12.099905967712402,
+      "val_ppl": 12.290504455566406,
+      "train_acc": 0.2732421875,
+      "val_acc": 0.2700390625,
+      "elapsed_s": 2.727216958999634
+    },
+    {
+      "iter": 1200,
+      "train_loss": 2.486262083053589,
+      "val_loss": 2.503467559814453,
+      "train_ppl": 12.016276359558105,
+      "val_ppl": 12.224810600280762,
+      "train_acc": 0.27013671875,
+      "val_acc": 0.26966796875,
+      "elapsed_s": 3.5097837448120117
+    },
+    {
+      "iter": 1500,
+      "train_loss": 2.466465711593628,
+      "val_loss": 2.4920854568481445,
+      "train_ppl": 11.780736923217773,
+      "val_ppl": 12.086455345153809,
+      "train_acc": 0.27322265625,
+      "val_acc": 0.2703515625,
+      "elapsed_s": 4.325185537338257
+    },
+    {
+      "iter": 1800,
+      "train_loss": 2.4682557582855225,
+      "val_loss": 2.493600845336914,
+      "train_ppl": 11.801843643188477,
+      "val_ppl": 12.104784965515137,
+      "train_acc": 0.26990234375,
+      "val_acc": 0.2684375,
+      "elapsed_s": 5.0735461711883545
+    },
+    {
+      "iter": 2100,
+      "train_loss": 2.4696455001831055,
+      "val_loss": 2.4845683574676514,
+      "train_ppl": 11.818256378173828,
+      "val_ppl": 11.995941162109375,
+      "train_acc": 0.26943359375,
+      "val_acc": 0.2686328125,
+      "elapsed_s": 5.815865993499756
+    },
+    {
+      "iter": 2400,
+      "train_loss": 2.463808059692383,
+      "val_loss": 2.487889051437378,
+      "train_ppl": 11.749468803405762,
+      "val_ppl": 12.035841941833496,
+      "train_acc": 0.26951171875,
+      "val_acc": 0.26732421875,
+      "elapsed_s": 6.633975267410278
+    },
+    {
+      "iter": 2700,
+      "train_loss": 2.473775863647461,
+      "val_loss": 2.4910616874694824,
+      "train_ppl": 11.867171287536621,
+      "val_ppl": 12.074088096618652,
+      "train_acc": 0.26732421875,
+      "val_acc": 0.2694921875,
+      "elapsed_s": 7.3839826583862305
+    },
+    {
+      "iter": 3000,
+      "train_loss": 2.4612526893615723,
+      "val_loss": 2.489734649658203,
+      "train_ppl": 11.719483375549316,
+      "val_ppl": 12.058075904846191,
+      "train_acc": 0.26783203125,
+      "val_acc": 0.26833984375,
+      "elapsed_s": 8.197441577911377
+    }
+  ],
+  "sample": "\nLIZAntaitoupis!\nBENIngt,\nN tiel, serhe hill: h wous sal ayolf sthereeyowoulour: horgonof m\n\n\nsunicour,\n\n\nANLOurak anominfaind oul bond f DIC:\nO g.\n\nGr IOLouspold se.\nDotamy t Y mioke om, d a he ates,\nARDus ang s tist;\n's\nORINUSTod ad yety CLAns, iakerecithak ws: got hesal tobjobis,'s dsent,\nBRCOfararnt wilanou?\nF ve:\nORDO\nFOpe tend d hil RK:\nFour wath, f.\nI\nBUMEToirofre ahow ive I's,\nNI to'l\nA:\nNTINERK:\nSThingou, thingilet menyo trt hisis; shisig t ern vey theY wanan, stoue l heny me Wheris wo m",
+  "final": {
+    "iter": 3000,
+    "train_loss": 2.4612526893615723,
+    "val_loss": 2.489734649658203,
+    "train_ppl": 11.719483375549316,
+    "val_ppl": 12.058075904846191,
+    "train_acc": 0.26783203125,
+    "val_acc": 0.26833984375,
+    "elapsed_s": 8.197441577911377
+  }
+}

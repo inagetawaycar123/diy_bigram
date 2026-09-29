@@ -1,0 +1,44 @@
+[bigram_shakespeare] device=cpu corpus=tinyshakespeare (英文) chars=1115394 vocab=65 params=0.0042M
+[bigram_shakespeare] config={"batch_size": 32, "block_size": 8, "max_iters": 3000, "eval_interval": 300, "learning_rate": 0.01}
+step 0: train loss 4.7305, val loss 4.7241 | train acc 1.21% val acc 1.09% | val ppl 112.6 | 0.3s
+step 300: train loss 2.8110, val loss 2.8249 | train acc 22.82% val acc 22.40% | val ppl 16.9 | 1.1s
+step 600: train loss 2.5434, val loss 2.5682 | train acc 26.79% val acc 26.76% | val ppl 13.0 | 2.0s
+step 900: train loss 2.4932, val loss 2.5088 | train acc 27.32% val acc 27.00% | val ppl 12.3 | 2.7s
+step 1200: train loss 2.4863, val loss 2.5035 | train acc 27.01% val acc 26.97% | val ppl 12.2 | 3.5s
+step 1500: train loss 2.4665, val loss 2.4921 | train acc 27.32% val acc 27.04% | val ppl 12.1 | 4.3s
+step 1800: train loss 2.4683, val loss 2.4936 | train acc 26.99% val acc 26.84% | val ppl 12.1 | 5.1s
+step 2100: train loss 2.4696, val loss 2.4846 | train acc 26.94% val acc 26.86% | val ppl 12.0 | 5.8s
+step 2400: train loss 2.4638, val loss 2.4879 | train acc 26.95% val acc 26.73% | val ppl 12.0 | 6.6s
+step 2700: train loss 2.4738, val loss 2.4911 | train acc 26.73% val acc 26.95% | val ppl 12.1 | 7.4s
+step 3000: train loss 2.4613, val loss 2.4897 | train acc 26.78% val acc 26.83% | val ppl 12.1 | 8.2s
+[bigram_shakespeare] finished in 8.2s -> /home/sadinar/workspace/karpathy/diy_bigram/results/bigram_shakespeare_history.json
+============================================================
+
+LIZAntaitoupis!
+BENIngt,
+N tiel, serhe hill: h wous sal ayolf sthereeyowoulour: horgonof m
+
+
+sunicour,
+
+
+ANLOurak anominfaind oul bond f DIC:
+O g.
+
+Gr IOLouspold se.
+Dotamy t Y mioke om, d a he ates,
+ARDus ang s tist;
+'s
+ORINUSTod ad yety CLAns, iakerecithak ws: got hesal tobjobis,'s dsent,
+BRCOfararnt wilanou?
+F ve:
+ORDO
+FOpe tend d hil RK:
+Four wath, f.
+I
+BUMEToirofre ahow ive I's,
+NI to'l
+A:
+NTINERK:
+SThingou, thingilet menyo trt hisis; shisig t ern vey theY wanan, stoue l heny me Wheris wo m
+============================================================
