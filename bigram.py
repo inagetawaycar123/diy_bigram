@@ -17,7 +17,7 @@ torch.manual_seed(1337)
 with open('input.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
-chars = sorted(set(text))
+chars = sorted(list(set(text)))
 vocab_size = len(chars)
 
 stoi = { ch:i for i,ch in enumerate(chars) }
@@ -41,6 +41,7 @@ def get_batch(split):
 
 @torch.no_grad()
 def estimate_loss():
+    '''Estimates the loss of the model by running model.forward()'''
     out = {}
     model.eval()
     for split in ["train", "val"]:
@@ -55,7 +56,8 @@ def estimate_loss():
     
 
 class BigramLanguageModel(nn.Module):
-
+    '''A simple bigram language model.'''
+    
     def __init__(self, vocab_size):
         super().__init__()
         self.token_embedding_table = nn.Embedding(vocab_size, vocab_size)
